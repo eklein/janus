@@ -1,10 +1,10 @@
-Aaron's Tmux & Vim setup
+Eli's vim setup (mostly copied from https://github.com/adnichols/tmux-and-vim.git)
 ===================
 This setup is a combination of
 [janus](https://github.com/carlhuda/janus) and the configs from
 [maximum-awesome](https://github.com/square/maximum-awesome) with some
 of my own opinions thrown in. It's a very opinionated vim configuration,
-use it as a base, don't be hurt if it changes in ways you don't like. 
+use it as a base, don't be hurt if it changes in ways you don't like.
 
 This is mostly here to make life easier for me when setting up a new
 system
@@ -14,14 +14,13 @@ system
 - Installs any of the submodules in this repo
 - links a .vimrc.before and .vimrc.after to setup things the way I like
   them
-- links a .tmux.conf to setup things the way I like them
 
 # Setup
 
-Clone into ~/.janus   
-```git clone https://github.com/adnichols/tmux-and-vim.git ~/.janus```
+Clone into ~/.janus
+```git clone https://github.com/eklein/janus.git ~/.janus```
 
-Run setup   
+Run setup
 ```sh ~/.janus/setup/setup.sh```
 
 # Dependencies
@@ -34,7 +33,7 @@ Mostly due to janus this has a few dependencies:
 - tmux and vim (but you knew that)
 
 It assumes you are running a modern version of vim - I use 7.4, so if
-you aren't using that then chances are stuff in here may not work. 
+you aren't using that then chances are stuff in here may not work.
 
 # Keyboard Mappings
 
@@ -112,7 +111,7 @@ vii - select interior of block
 :Tabularize /:value - Align colums on :value
 :%s/foo/bar/g - search for foo, replace with bar
 cs - change surround - e.g. cs"' changes from " to '
-,cap - Clear Ctrlp cache 
+,cap - Clear Ctrlp cache
 ```
 
 #### Nerdtree
@@ -139,5 +138,3 @@ Tmux
 F11 - Modify Meta char to C-o for pasting stuff w/ `
 F12 - Modify Meta char to ` for normal use
 ```
-
-Tmux is also scriptable from command line, just run tmux-[tab tab] to see the options

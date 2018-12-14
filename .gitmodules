@@ -49,3 +49,6 @@
 [submodule "vim-ansible-yaml"]
 	path = vim-ansible-yaml
 	url = git://github.com/chase/vim-ansible-yaml.git
+[submodule "vimagit"]
+	path = vimagit
+	url = https://github.com/jreybert/vimagit
